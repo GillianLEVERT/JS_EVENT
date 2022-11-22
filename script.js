@@ -8,7 +8,7 @@ footer.addEventListener('click', function () {
 
 //fonctionnalité 2
 
-let navbarHeader = document.getElementById('navbarHeader');
+let navbarHeader = document.querySelector('#navbarHeader');
 let hamburgerMenu = document.querySelector('button.navbar-toggler');
 hamburgerMenu.addEventListener('click', function () {
     navbarHeader.classList.toggle("collapse");
@@ -38,7 +38,7 @@ editCard2.addEventListener('click', function () {
 //fonctionnalité 5
 
 
-let getNav = document.querySelector('header')
+let getNav = document.querySelector('header');
 getNav.addEventListener("dblclick", function() {
     if (document.querySelector('link').disabled === true) {
         document.querySelector('link').disabled = false;
